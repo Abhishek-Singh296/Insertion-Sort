@@ -1,6 +1,8 @@
 # Insertion-Sort
 Insertion sort is an algorithm used to sort a collection of elements in ascending or descending order. The basic idea behind the algorithm is to divide the list into two parts: a sorted part and an unsorted part.Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
 
+---
+
 ## __Working__
 Suppose we need to sort the following array.
 
@@ -19,3 +21,13 @@ Suppose we need to sort the following array.
 <img width="451" alt="Insertion-sort-2_2" src="https://user-images.githubusercontent.com/113619312/234354697-d5799205-3c99-45ed-9e0f-a7fa4cb84671.png">
 
 <img width="451" alt="Insertion-sort-3_2" src="https://user-images.githubusercontent.com/113619312/234354716-cdae4920-1231-4a64-bec1-fe3ed7c4b3db.png">
+
+---
+
+## __Algorithm__
+
+To sort an array of size N in ascending order: 
+
+- Iterate from arr[1] to arr[N] over the array. 
+- Compare the current element (key) to its predecessor. 
+- If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
